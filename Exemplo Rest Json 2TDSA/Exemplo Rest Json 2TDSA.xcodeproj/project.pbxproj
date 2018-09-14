@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACFFC889214BEB1600ED9231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFFC888214BEB1600ED9231 /* AppDelegate.swift */; };
+		ACFFC88B214BEB1600ED9231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFFC88A214BEB1600ED9231 /* ViewController.swift */; };
+		ACFFC88E214BEB1600ED9231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFFC88C214BEB1600ED9231 /* Main.storyboard */; };
+		ACFFC890214BEB1F00ED9231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFFC88F214BEB1F00ED9231 /* Assets.xcassets */; };
+		ACFFC893214BEB1F00ED9231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFFC891214BEB1F00ED9231 /* LaunchScreen.storyboard */; };
+		ACFFC89E214BEB1F00ED9231 /* Exemplo_Rest_Json_2TDSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFFC89D214BEB1F00ED9231 /* Exemplo_Rest_Json_2TDSATests.swift */; };
+		ACFFC8A9214BEB1F00ED9231 /* Exemplo_Rest_Json_2TDSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFFC8A8214BEB1F00ED9231 /* Exemplo_Rest_Json_2TDSAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACFFC89A214BEB1F00ED9231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFFC87D214BEB1500ED9231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFFC884214BEB1600ED9231;
+			remoteInfo = "Exemplo Rest Json 2TDSA";
+		};
+		ACFFC8A5214BEB1F00ED9231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFFC87D214BEB1500ED9231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFFC884214BEB1600ED9231;
+			remoteInfo = "Exemplo Rest Json 2TDSA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACFFC885214BEB1600ED9231 /* Exemplo Rest Json 2TDSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exemplo Rest Json 2TDSA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFFC888214BEB1600ED9231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACFFC88A214BEB1600ED9231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACFFC88D214BEB1600ED9231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACFFC88F214BEB1F00ED9231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACFFC892214BEB1F00ED9231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACFFC894214BEB1F00ED9231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFFC899214BEB1F00ED9231 /* Exemplo Rest Json 2TDSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exemplo Rest Json 2TDSATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFFC89D214BEB1F00ED9231 /* Exemplo_Rest_Json_2TDSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exemplo_Rest_Json_2TDSATests.swift; sourceTree = "<group>"; };
+		ACFFC89F214BEB1F00ED9231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFFC8A4214BEB1F00ED9231 /* Exemplo Rest Json 2TDSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exemplo Rest Json 2TDSAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFFC8A8214BEB1F00ED9231 /* Exemplo_Rest_Json_2TDSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exemplo_Rest_Json_2TDSAUITests.swift; sourceTree = "<group>"; };
+		ACFFC8AA214BEB1F00ED9231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFFC882214BEB1600ED9231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFFC896214BEB1F00ED9231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFFC8A1214BEB1F00ED9231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACFFC87C214BEB1500ED9231 = {
+			isa = PBXGroup;
+			children = (
+				ACFFC887214BEB1600ED9231 /* Exemplo Rest Json 2TDSA */,
+				ACFFC89C214BEB1F00ED9231 /* Exemplo Rest Json 2TDSATests */,
+				ACFFC8A7214BEB1F00ED9231 /* Exemplo Rest Json 2TDSAUITests */,
+				ACFFC886214BEB1600ED9231 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFFC886214BEB1600ED9231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFFC885214BEB1600ED9231 /* Exemplo Rest Json 2TDSA.app */,
+				ACFFC899214BEB1F00ED9231 /* Exemplo Rest Json 2TDSATests.xctest */,
+				ACFFC8A4214BEB1F00ED9231 /* Exemplo Rest Json 2TDSAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFFC887214BEB1600ED9231 /* Exemplo Rest Json 2TDSA */ = {
+			isa = PBXGroup;
+			children = (
+				ACFFC888214BEB1600ED9231 /* AppDelegate.swift */,
+				ACFFC88A214BEB1600ED9231 /* ViewController.swift */,
+				ACFFC88C214BEB1600ED9231 /* Main.storyboard */,
+				ACFFC88F214BEB1F00ED9231 /* Assets.xcassets */,
+				ACFFC891214BEB1F00ED9231 /* LaunchScreen.storyboard */,
+				ACFFC894214BEB1F00ED9231 /* Info.plist */,
+			);
+			path = "Exemplo Rest Json 2TDSA";
+			sourceTree = "<group>";
+		};
+		ACFFC89C214BEB1F00ED9231 /* Exemplo Rest Json 2TDSATests */ = {
+			isa = PBXGroup;
+			children = (
+				ACFFC89D214BEB1F00ED9231 /* Exemplo_Rest_Json_2TDSATests.swift */,
+				ACFFC89F214BEB1F00ED9231 /* Info.plist */,
+			);
+			path = "Exemplo Rest Json 2TDSATests";
+			sourceTree = "<group>";
+		};
+		ACFFC8A7214BEB1F00ED9231 /* Exemplo Rest Json 2TDSAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACFFC8A8214BEB1F00ED9231 /* Exemplo_Rest_Json_2TDSAUITests.swift */,
+				ACFFC8AA214BEB1F00ED9231 /* Info.plist */,
+			);
+			path = "Exemplo Rest Json 2TDSAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFFC884214BEB1600ED9231 /* Exemplo Rest Json 2TDSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFFC8AD214BEB1F00ED9231 /* Build configuration list for PBXNativeTarget "Exemplo Rest Json 2TDSA" */;
+			buildPhases = (
+				ACFFC881214BEB1600ED9231 /* Sources */,
+				ACFFC882214BEB1600ED9231 /* Frameworks */,
+				ACFFC883214BEB1600ED9231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exemplo Rest Json 2TDSA";
+			productName = "Exemplo Rest Json 2TDSA";
+			productReference = ACFFC885214BEB1600ED9231 /* Exemplo Rest Json 2TDSA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACFFC898214BEB1F00ED9231 /* Exemplo Rest Json 2TDSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFFC8B0214BEB1F00ED9231 /* Build configuration list for PBXNativeTarget "Exemplo Rest Json 2TDSATests" */;
+			buildPhases = (
+				ACFFC895214BEB1F00ED9231 /* Sources */,
+				ACFFC896214BEB1F00ED9231 /* Frameworks */,
+				ACFFC897214BEB1F00ED9231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFFC89B214BEB1F00ED9231 /* PBXTargetDependency */,
+			);
+			name = "Exemplo Rest Json 2TDSATests";
+			productName = "Exemplo Rest Json 2TDSATests";
+			productReference = ACFFC899214BEB1F00ED9231 /* Exemplo Rest Json 2TDSATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACFFC8A3214BEB1F00ED9231 /* Exemplo Rest Json 2TDSAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFFC8B3214BEB1F00ED9231 /* Build configuration list for PBXNativeTarget "Exemplo Rest Json 2TDSAUITests" */;
+			buildPhases = (
+				ACFFC8A0214BEB1F00ED9231 /* Sources */,
+				ACFFC8A1214BEB1F00ED9231 /* Frameworks */,
+				ACFFC8A2214BEB1F00ED9231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFFC8A6214BEB1F00ED9231 /* PBXTargetDependency */,
+			);
+			name = "Exemplo Rest Json 2TDSAUITests";
+			productName = "Exemplo Rest Json 2TDSAUITests";
+			productReference = ACFFC8A4214BEB1F00ED9231 /* Exemplo Rest Json 2TDSAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFFC87D214BEB1500ED9231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Gustavo André Lei";
+				TargetAttributes = {
+					ACFFC884214BEB1600ED9231 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ACFFC898214BEB1F00ED9231 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ACFFC884214BEB1600ED9231;
+					};
+					ACFFC8A3214BEB1F00ED9231 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ACFFC884214BEB1600ED9231;
+					};
+				};
+			};
+			buildConfigurationList = ACFFC880214BEB1500ED9231 /* Build configuration list for PBXProject "Exemplo Rest Json 2TDSA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACFFC87C214BEB1500ED9231;
+			productRefGroup = ACFFC886214BEB1600ED9231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFFC884214BEB1600ED9231 /* Exemplo Rest Json 2TDSA */,
+				ACFFC898214BEB1F00ED9231 /* Exemplo Rest Json 2TDSATests */,
+				ACFFC8A3214BEB1F00ED9231 /* Exemplo Rest Json 2TDSAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFFC883214BEB1600ED9231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFFC893214BEB1F00ED9231 /* LaunchScreen.storyboard in Resources */,
+				ACFFC890214BEB1F00ED9231 /* Assets.xcassets in Resources */,
+				ACFFC88E214BEB1600ED9231 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFFC897214BEB1F00ED9231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFFC8A2214BEB1F00ED9231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFFC881214BEB1600ED9231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFFC88B214BEB1600ED9231 /* ViewController.swift in Sources */,
+				ACFFC889214BEB1600ED9231 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFFC895214BEB1F00ED9231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFFC89E214BEB1F00ED9231 /* Exemplo_Rest_Json_2TDSATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFFC8A0214BEB1F00ED9231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFFC8A9214BEB1F00ED9231 /* Exemplo_Rest_Json_2TDSAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACFFC89B214BEB1F00ED9231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFFC884214BEB1600ED9231 /* Exemplo Rest Json 2TDSA */;
+			targetProxy = ACFFC89A214BEB1F00ED9231 /* PBXContainerItemProxy */;
+		};
+		ACFFC8A6214BEB1F00ED9231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFFC884214BEB1600ED9231 /* Exemplo Rest Json 2TDSA */;
+			targetProxy = ACFFC8A5214BEB1F00ED9231 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACFFC88C214BEB1600ED9231 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFFC88D214BEB1600ED9231 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACFFC891214BEB1F00ED9231 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACFFC892214BEB1F00ED9231 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACFFC8AB214BEB1F00ED9231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACFFC8AC214BEB1F00ED9231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACFFC8AE214BEB1F00ED9231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Exemplo Rest Json 2TDSA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Exemplo-Rest-Json-2TDSA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACFFC8AF214BEB1F00ED9231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Exemplo Rest Json 2TDSA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Exemplo-Rest-Json-2TDSA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACFFC8B1214BEB1F00ED9231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Exemplo Rest Json 2TDSATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Exemplo-Rest-Json-2TDSATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exemplo Rest Json 2TDSA.app/Exemplo Rest Json 2TDSA";
+			};
+			name = Debug;
+		};
+		ACFFC8B2214BEB1F00ED9231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Exemplo Rest Json 2TDSATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Exemplo-Rest-Json-2TDSATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exemplo Rest Json 2TDSA.app/Exemplo Rest Json 2TDSA";
+			};
+			name = Release;
+		};
+		ACFFC8B4214BEB1F00ED9231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Exemplo Rest Json 2TDSAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Exemplo-Rest-Json-2TDSAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Exemplo Rest Json 2TDSA";
+			};
+			name = Debug;
+		};
+		ACFFC8B5214BEB1F00ED9231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Exemplo Rest Json 2TDSAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fiap.Exemplo-Rest-Json-2TDSAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Exemplo Rest Json 2TDSA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFFC880214BEB1500ED9231 /* Build configuration list for PBXProject "Exemplo Rest Json 2TDSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFFC8AB214BEB1F00ED9231 /* Debug */,
+				ACFFC8AC214BEB1F00ED9231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFFC8AD214BEB1F00ED9231 /* Build configuration list for PBXNativeTarget "Exemplo Rest Json 2TDSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFFC8AE214BEB1F00ED9231 /* Debug */,
+				ACFFC8AF214BEB1F00ED9231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFFC8B0214BEB1F00ED9231 /* Build configuration list for PBXNativeTarget "Exemplo Rest Json 2TDSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFFC8B1214BEB1F00ED9231 /* Debug */,
+				ACFFC8B2214BEB1F00ED9231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFFC8B3214BEB1F00ED9231 /* Build configuration list for PBXNativeTarget "Exemplo Rest Json 2TDSAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFFC8B4214BEB1F00ED9231 /* Debug */,
+				ACFFC8B5214BEB1F00ED9231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFFC87D214BEB1500ED9231 /* Project object */;
+}
